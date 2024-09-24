@@ -84,7 +84,9 @@ You can add your function as follows:
   I'm looking for a hotel in the Netherlands
   ```
 
-5. The agent should start asking you about location, price and hotel features and finally call the function and return the properties in JSON format.
+5. Provide an answer to the model as "Amsterdam, $234, a hotel with a beachfront view".
+
+6. The agent should start asking you about location, price and hotel features and finally call the function and return the properties in JSON format.
 
 ![chat conversation with the model to output structured json](./Images/ai-studio-function-calling-chat.jpg)
 
